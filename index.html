@@ -3,35 +3,45 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <title>The Lobster Pot - Vehicle Checks</title>
 
   <meta name="apple-mobile-web-app-title" content="Vehicle Checks">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
-  <link rel="apple-touch-icon"
-        sizes="180x180"
+  <link rel="apple-touch-icon" sizes="180x180"
         href="https://just2g0raids-sketch.github.io/vehicle-checks/Icon.png">
 
-  <link rel="apple-touch-icon-precomposed"
+  <link rel="icon" type="image/png"
         href="https://just2g0raids-sketch.github.io/vehicle-checks/Icon.png">
 
-  <link rel="icon"
-        type="image/png"
-        href="https://just2g0raids-sketch.github.io/vehicle-checks/Icon.png">
+  <style>
+    body {
+      background: #111;
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 30px 15px;
+    }
 
-  <meta http-equiv="refresh"
-        content="0;url=https://script.google.com/macros/s/AKfycbwNzAawyTp1wdXOvzrkLojfquIE9SN9AnQ7qJeRsP1WUuBA0UI1h_8nEtxVci0GYcAx/exec">
+    img {
+      width: 220px;
+      height: 220px;
+      object-fit: contain;
+    }
+  </style>
 </head>
-
 <body>
-  <p>Opening Vehicle Checks...</p>
+  <img src="Icon.png" alt="The Lobster Pot truck">
+  <h2>THE LOBSTER POT</h2>
+  <p>Vehicle Checks</p>
 
   <script>
-    window.location.replace(
-      "https://script.google.com/macros/s/AKfycbwNzAawyTp1wdXOvzrkLojfquIE9SN9AnQ7qJeRsP1WUuBA0UI1h_8nEtxVci0GYcAx/exec"
-    );
+    if (window.navigator.standalone === true) {
+      window.location.replace(
+        "https://script.google.com/macros/s/AKfycbwNzAawyTp1wdXOvzrkLojfquIE9SN9AnQ7qJeRsP1WUuBA0UI1h_8nEtxVci0GYcAx/exec"
+      );
+    }
   </script>
 </body>
 </html>
