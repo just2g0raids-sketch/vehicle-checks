@@ -6,49 +6,82 @@
 
   <title>The Lobster Pot - Vehicle Checks</title>
 
+  <meta name="theme-color" content="#111111">
   <meta name="apple-mobile-web-app-title" content="Vehicle Checks">
   <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
-<link rel="apple-touch-icon" sizes="180x180"
-      href="https://just2g0raids-sketch.github.io/vehicle-checks/Icon.png?v=2">
-<link rel="icon" type="image/png"
-      href="https://just2g0raids-sketch.github.io/vehicle-checks/Icon.png?v=2">
+  <link rel="apple-touch-icon" sizes="180x180"
+        href="https://just2g0raids-sketch.github.io/vehicle-checks/Icon.png?v=3">
+  <link rel="icon" type="image/png"
+        href="https://just2g0raids-sketch.github.io/vehicle-checks/Icon.png?v=3">
 
   <style>
-    body {
-      background: #111;
-      color: white;
-      font-family: Arial, sans-serif;
-      text-align: center;
-      padding: 30px 20px;
+    * {
+      box-sizing: border-box;
     }
 
-    img {
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: #111111;
+      color: #ffffff;
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+      padding: 28px 20px;
+    }
+
+    .logo {
+      display: block;
       width: 220px;
       height: 220px;
       object-fit: contain;
-      border-radius: 28px;
+      margin: 0 auto 24px;
     }
 
-    a {
+    h1 {
+      font-size: 24px;
+      margin: 0 0 18px;
+    }
+
+    p {
+      font-size: 16px;
+      margin: 0 0 30px;
+    }
+
+    .open-button {
       display: block;
+      width: 100%;
       background: #d9272e;
-      color: white;
-      padding: 18px;
-      margin-top: 30px;
+      color: #ffffff;
+      padding: 18px 12px;
+      margin-top: 28px;
       border-radius: 10px;
       text-decoration: none;
+      font-size: 16px;
       font-weight: bold;
+    }
+
+    .open-button:active {
+      background: #b91f25;
     }
   </style>
 </head>
-<body>
-  <img src="./Icon.png" alt="The Lobster Pot truck">
 
-  <h2>THE LOBSTER POT</h2>
+<body>
+  <img
+    class="logo"
+    src="https://just2g0raids-sketch.github.io/vehicle-checks/Icon.png"
+    alt="The Lobster Pot truck"
+  >
+
+  <h1>THE LOBSTER POT</h1>
   <p>Vehicle Checks</p>
 
-  <a href="https://script.google.com/macros/s/AKfycbwNzAawyTp1wdXOvzrkLojfquIE9SN9AnQ7qJeRsP1WUuBA0UI1h_8nEtxVci0GYcAx/exec">
+  <a
+    class="open-button"
+    href="https://script.google.com/macros/s/AKfycbwNzAawyTp1wdXOvzrkLojfquIE9SN9AnQ7qJeRsP1WUuBA0UI1h_8nEtxVci0GYcAx/exec"
+  >
     OPEN VEHICLE CHECKS
   </a>
 </body>
